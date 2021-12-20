@@ -1,0 +1,7 @@
+on fs
+
+service sd-reverse /sbin/sd-reverse.sh
+    class core
+    user root
+    group root
+    seclabel u:r:recovery:s0
